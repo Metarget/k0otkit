@@ -67,7 +67,8 @@ P.S. It is not limited how many Kubernetes clusters you manipulate with k0otkit.
 After the successful deployment of k0otkit, you can interact with any reverse shell as you want:
 
 ```bash
-
+# within msfconsole
+sessions 1
 ```
 
 ## Features
