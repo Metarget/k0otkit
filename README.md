@@ -73,7 +73,10 @@ sessions 1
 
 ## Features
 
-
+- utilize K8s resources and features (hack K8s in a K8s way)
+- dynamic container injection
+- communication encryption (thanks to Meterpreter)
+- fileless
 
 ## Example
 
