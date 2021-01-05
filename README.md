@@ -6,7 +6,7 @@ k0otkit is a universal post-penetration technique which could be used in penetra
 
 With k0otkit, you can manipulate all the nodes in the target Kubernetes cluster in a rapid, covert and continuous way (reverse shell).
 
-k0otkit is the combination of **Kuberntes** and **rootkit**.
+k0otkit is the combination of **Kubernetes** and **rootkit**.
 
 Prerequisite:
 
