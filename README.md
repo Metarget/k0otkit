@@ -21,6 +21,8 @@ Scenario:
 5. You get a root shell of the master node and are able to instruct the cluster with `kubectl` on the master node as `admin`.
 6. Now you want to control all the nodes in the cluster as quickly as possible. **Here comes k0otkit!**
 
+k0otkit is detailed in *[k0otkit: Hack K8s in a K8s Way](https://mp.weixin.qq.com/s/H48WNRRtlJil9uLt-O9asw)*.
+
 ## Usage
 
 Make sure you have got the root shell on the master node of the target Kubernetes. (You can also utilize k0otkit if you have the admin privilege of the target Kubernetes, though you might need to modify the `kubectl` command in `k0otkit_template.sh` to use the token or certification.)
